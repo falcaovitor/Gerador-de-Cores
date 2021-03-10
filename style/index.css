@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background: url("./img/quadrado-preto.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.container button{
+    width: 14rem;
+    height: 6rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 8px 0px 8px 0px;
+    outline: none;
+    background: transparent;
+    color: white
+}
+.container button:hover{
+    box-shadow: 0.3rem 0.3rem 1rem black;
+}
+.container h3{
+    position: relative;
+    top: 1rem;
+    font-size: 2rem;
+    color: white;
+    display: none;
+}
+.container #copy{
+    position: relative;
+    top: 2rem;
+    display: none;
+}
+.container #success{
+    top: 2rem;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+}
